@@ -2,9 +2,10 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="p-3">
+      <h1>ReactJS with Bootstrap</h1>
+      <button className="btn btn-primary">Submit</button>
+    </div>
   );
 }
 
