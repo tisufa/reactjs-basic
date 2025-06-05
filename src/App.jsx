@@ -2,9 +2,9 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="w-screen h-screen grid items-center justify-center bg-slate-800">
+      <h1 className="font-semibold text-white text-2xl">Hello World</h1>
+    </div>
   );
 }
 
