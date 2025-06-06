@@ -1,5 +1,6 @@
+import { faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
-
 function App() {
   return (
     <>
@@ -13,7 +14,7 @@ function App() {
           color: "#fff",
         }}
       >
-        <em className="fas fa-plus"></em>
+        <FontAwesomeIcon icon={faPlus} />
         Add User
       </button>
       <button
@@ -25,7 +26,7 @@ function App() {
           color: "#fff",
         }}
       >
-        <em className="fas fa-trash"></em>
+        <FontAwesomeIcon icon={faTrash} />
         Delete User
       </button>
     </>
